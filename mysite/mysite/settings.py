@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+	'polls.apps.PollsConfig', #From Tutorial02: https://docs.djangoproject.com/en/2.1/intro/tutorial02/
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Berlin' #From Tutorial02: https://docs.djangoproject.com/en/2.1/intro/tutorial02/
 
 USE_I18N = True
 

@@ -1,4 +1,4 @@
-#From Tutorial01 : https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+#From Tutorial01 : c
 from . import views
 from django.urls import path
 urlpatterns = [
